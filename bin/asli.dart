@@ -26,4 +26,6 @@ void main(List<String> arguments) {
   stdout.writeln('Umurku dalam bulan adalah');
   umurBulan = stdin.readLineSync();
   stdout.writeln('Umurku dalam bulan adalah $umurBulan bulan');
+  List<String> hobi = ['makan', 'minum', 'tidur'];
+  stdout.writeln('Hobiku adalah ${hobi.join(', ')}');
 }
